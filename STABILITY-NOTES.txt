@@ -1,0 +1,26 @@
+
+
+LOCKED STABLE BUILD
+===================
+
+The original v4 application files are preserved exactly as they were in the
+working version. No changes were made to:
+- TrayColorPicker.ps1
+- Start Tray Color Picker.vbs
+- Eyedropper.cur
+- TrayColorPicker.ico
+- startup scripts
+
+Extra files were added only for troubleshooting:
+- Run Debug.bat
+- Repair Windows Cursor.bat
+- Repair Windows Cursor.ps1
+
+Normal use:
+Double-click "Start Tray Color Picker.vbs".
+
+If the tray icon does not appear:
+Run "Run Debug.bat" and read the visible PowerShell error.
+
+If Windows ever keeps the eyedropper cursor after a forced crash:
+Run "Repair Windows Cursor.bat".
